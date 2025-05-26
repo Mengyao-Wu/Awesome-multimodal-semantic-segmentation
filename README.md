@@ -20,6 +20,21 @@ This repository provides a curated list of **datasets** and **literature** for m
 | Cityscapes (Stereo) | The Cityscapes Dataset for Semantic Urban Scene Understanding | CVPR | 2016 | [Link](https://www.cityscapes-dataset.com/) |
 | SYNTHIA2Cityscapes&SELMA2Cityscapes | Source-Free Domain Adaptation for RGB-D Semantic Segmentation with Vision Transformers | WACV | 2023 | [Link](https://arxiv.org/abs/2305.14269) |
 | NYUDv2 | Self-Enhanced Feature Fusion for RGB-D Semantic Segmentation | IEEE SPL | 2024 | [Link](https://ieeexplore.ieee.org/document/10706844/) |
+| NYU Depth V2&SUN-RGBD | DFormer: Rethinking RGBD Representation Learning for Semantic Segmentation | ICLR | 2024 | [Link](https://github.com/VCIP-RGBD/DFormer) |
+| NYUDv2&SUN-RGBD&SID | ShapeConv: Shape-aware Convolutional Layer  for Indoor RGB-D Semantic Segmentation | ICCV | 2021 | [Link](https://ieeexplore.ieee.org/document/9710391/) |
+| GTA→Cityscapes&Synthia→Cityscapes | RGB-D Domain adaptive semantic segmentation with cross-modality feature recalibration | Information Fusion | 2025 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S1566253525001903) |
+| ScanNet&Cityscapes | RFBNet: Deep Multimodal Networks with Residual Fusion Blocks for RGB-D Semantic Segmentation | arXiv | 2019 | [Link](http://arxiv.org/abs/1907.00135) |
+| NYU Depth V2&SUN-RGBD | PrimKD: Primary Modality Guided Multimodal Fusion for RGB-D Semantic Segmentation | ACM MM | 2024 | [Link](https://dl.acm.org/doi/10.1145/3664647.3681253) |
+| NYU Depth V2&SUN-RGBD&SID | Pixel Difference Convolutional Network for RGB-D Semantic Segmentation | TSCVT | 2021 | [Link](https://ieeexplore.ieee.org/document/10185116/) |
+| NYUv2 & SUNRGB-D&Cityscapes | Efficient RGB-D Semantic Segmentation for Indoor Scene Analysis | arXiv | 2021 | [Link](http://arxiv.org/abs/2011.06961) |
+| NYU Depth V2&SUN-RGBD | Dual-modal non-local context guided multi-stage fusion for indoor RGB-D semantic segmentation | Expert Systems With Applications | 2024 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0957417424014659) |
+| NYU DepthV2&SUNRGBD | DFormerv2: Geometry Self-Attention for RGBD Semantic Segmentation | arXiv | 2025 | [Link](https://github.com/VCIPRGBD/DFormer) |
+| NYUv2&SUN RGBD&KITTI | Depth-Adapted CNNs for RGB-D Semantic Segmentation | arXiv | 2022 | [Link](http://arxiv.org/abs/2206.03939) |
+| NYU Depth V2&SOP | Cross-Modal Transformer for RGB-D semantic segmentation of production workshop objects | Pattern Recognition | 2023 | [Link](https://github.com/FutureIAI/CMFormer) |
+| NYU Depth V2&SUN-RGBD | Automatic Network Architecture Search for RGB-D Semantic Segmentation | ACM MM | 2023 | [Link](https://dl.acm.org/doi/10.1145/3581783.3612288) |
+| NYU Depth V2&SUN-RGBD&Cityscapes | Attention-based fusion network for RGB-D semantic segmentation | Neurocomputing | 2024 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0925231224011421) |
+| NYUV2&SUN-RGBD | AsymFormer: Asymmetrical Cross-Modal Representation Learning for Mobile Platform Real-Time RGB-D Semantic Segmentation | CVPR | 2024 | [Link](https://github.com/Fourier7754/AsymFormer) |
+| NYUV2&SUN-RGBD | Application of Multi-modal Fusion Attention Mechanism in Semantic Segmentation | CVPR | 2022 | [Link](https://link.springer.com/10.1007/978-3-031-26293-7_23) |
 
 
 ---
@@ -42,6 +57,41 @@ This repository provides a curated list of **datasets** and **literature** for m
 | MFNet | FEANet: Feature-Enhanced Attention Network for RGB-Thermal Real-time Semantic Segmentation | IEEE | 2021 | [Link](https://ieeexplore.ieee.org/document/9636084/) |
 | MFNet&PST900 | Complementarity-aware cross-modal feature fusion network for RGB-T semantic segmentation | Pattern Recognition | 2022 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0031320322003624) |
 | MFNet | ABMDRNet: Adaptive-weighted Bi-directional Modality Difference Reduction Network for RGB-T Semantic Segmentation | CVPR | 2021 | [Link](https://ieeexplore.ieee.org/document/9578077/) |
+| NYU Depth V2 | Prompting Multi-Modal Image Segmentation with Semantic Grouping | AAAI | 2024 | [Link](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) |
+| MFNet&PST900 | A Feature Divide-and-Conquer Network for RGB-T Semantic Segmentation | TCSVT | 2023 | [Link](https://ieeexplore.ieee.org/document/9987529/) |
+| MFNet&PST900&FMB | AGFNet: Adaptive Gated Fusion Network for RGB-T Semantic Segmentation | ITS | 2023 | [Link](https://ieeexplore.ieee.org/document/10858005/) |
+| MFNet | CCAFFMNet: Dual-spectral semantic segmentation network with channel-coordinate attention feature fusion module | Neurocomputing | 2022 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0925231221017331) |
+| MFNet&PST900 | Channel and Spatial Relation-Propagation Network for RGB-Thermal Semantic Segmentation | arXiv | 2023 | [Link](http://arxiv.org/abs/2308.12534) |
+| MFNet&PST900 | Variational Probabilistic Fusion Network for RGB-T Semantic Segmentation | Journal of Class Files | 2023 | [Link](http://arxiv.org/abs/2307.08536) |
+| MFNet&PST900&FMB | Unveiling the Potential of Segment Anything Model 2 for RGB-Thermal Semantic Segmentation with Language Guidance | arXiv | 2025 | [Link](http://arxiv.org/abs/2503.02581) |
+| MFNet&PST900 | SGFNet: Semantic-Guided Fusion Network for RGB-Thermal Semantic Segmentation | TCSVT | 2023 | [Link](https://github.com/kw717/SGFNet) |
+| MFNet&PST900 | A Feature Divide-and-Conquer Network for RGB-T Semantic Segmentation |  | 2023 | [Link](https://ieeexplore.ieee.org/document/9987529/) |
+| MFNet&PST900 | SFAF-MA: Spatial Feature Aggregation and Fusion With Modality Adaptation for RGB-Thermal Semantic Segmentation | TIM | 2023 | [Link](https://github.com/hexunjie/SFAF-MA) |
+| MFNet&PST900 | SemanticRT: A Large-Scale Dataset and Method for Robust Semantic Segmentation in Multispectral Images | ACM MM | 2023 | [Link](https://dl.acm.org/doi/10.1145/3581783.3611738) |
+| MFNet&PST900 | RGB-T Semantic Segmentation With Location, Activation, and Sharpening | TCSVT | 2023 | [Link](https://github.com/MathLee/LASNet) |
+| MFNet | RFIENet: RGB-thermal feature interactive enhancement network for semantic segmentation of insulator in backlight scenes | Measurement | 2022 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0263224122013732) |
+| MFNet&PST900 | Resolving semantic conflicts in RGB-T semantic segmentation | Pattern Recognition | 2025 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0031320325000585) |
+| MFNet&PST900 | Residual spatial fusion network for RGB-thermal semantic segmentation | Neurocomputing | 2024 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0925231224006842) |
+| MFNet&PST900 | RegSeg: An End-to-End Network for Multimodal RGB-Thermal Registration and Semantic Segmentation | TIP | 2024 | [Link](https://ieeexplore.ieee.org/document/10766355/) |
+| MFNet&PST900 | Prompting Multi-Modal Image Segmentation with Semantic Grouping | AAAI | 2024 | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/27981) |
+| MFNet&PST900 | PEAFusion: Parameter-efficient Adaptation for RGB-Thermal fusion-based semantic segmentation | Information Fusion | 2025 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S1566253525001034) |
+| MFNet&PST900 | Open-RGBT: Open-vocabulary RGB-T Zero-shot Semantic Segmentation in Open-world Environments | arXiv | 2023 | [Link](https://OpenRGBT.github.io) |
+| MFNet&PST900 | MMSMCNet: Modal Memory Sharing and Morphological Complementary Networks for RGB-T Urban Scene Semantic Segmentation | TCSVT  | 2023 | [Link](https://ieeexplore.ieee.org/document/10123009/) |
+| MFNet&PST900 | MiLNet: Multiplex Interactive Learning Network for RGB-T Semantic Segmentation | TIP | 2025 | [Link](https://github.com/Jinfupku/MiLNet) |
+| SUNRGBD&PST900 | MEFNET: Multi-expert fusion network for RGB-Thermal semantic segmentationMEFNET: Multi-expert fusion network for RGB-Thermal semantic segmentation | EAAI | 2023 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0952197623008229) |
+| MFNet&PST900 | Mask-guided modality difference reduction network for RGB-T semantic segmentation | Neurocomputing | 2023 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0925231222015314) |
+| MFNet&PST900 | GMNet: Graded-Feature Multilabel-Learning Network for RGB-Thermal Urban Scene Semantic Segmentation | TIP | 2021 | [Link](https://ieeexplore.ieee.org/document/9531449/) |
+| MFNet&PST900 | Glass Segmentation with RGB-Thermal Image Pairs | TIP | 2023 | [Link](http://arxiv.org/abs/2204.05453) |
+| MFNet&PST900 | GCNet: Grid-like context-aware network for RGB-thermal semantic segmentation | Neurocomputing | 2022 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0925231222009006) |
+| RGBT-TL&RGBT-TS | Dual-Space Graph-Based Interaction Network for RGB-Thermal Semantic Segmentation in Electric Power Scene | TCSVT | 2023 | [Link](https: //github.com/hhujiang/DSGBINet) |
+| PST900&ACDC&NightCity | Dual-branch deep cross-modal interaction network for semantic segmentation with thermal images | EAAI | 2024 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0952197624009783) |
+| MFNet | Cross-level interaction fusion network-based RGB-T semantic segmentation for distant targets | Pattern Recognition | 2025 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0031320324009695) |
+| MFNet&PST900 | Context-Aware Interaction Network for RGB-T Semantic Segmentation | TMM | 2024 | [Link](https://ieeexplore.ieee.org/document/10379106/) |
+| MFNet&PST900&KP | Complementary Random Masking for RGB-Thermal Semantic Segmentation | ICRA | 2024 | [Link](https://ieeexplore.ieee.org/document/10611200/) |
+| MFNet&PST900 | Channel and Spatial Relation-Propagation Network for RGB-Thermal Semantic Segmentation | arXiv | 2023 | [Link](http://arxiv.org/abs/2308.12534) |
+| MFNet&PST900&FMB | C⁴Net: Excavating Cross-Modal Context- and Content-Complementarity for RGB-T Semantic Segmentation | TCSVT | 2025 | [Link](https://ieeexplore.ieee.org/document/10734373/) |
+| MFNet | ABMDRNet: Adaptive-weighted Bi-directional Modality Difference Reduction Network for RGB-T Semantic Segmentation | CVPR | 2021 | [Link](https://ieeexplore.ieee.org/document/9578077/) |
+| MFNet | A RGB-Thermal Image Segmentation Method Based on Parameter Sharing and Attention Fusion for Safe Autonomous Driving | TIP | 2024 | [Link](https://ieeexplore.ieee.org/document/10337777/) |
 
 ---
 
@@ -53,6 +103,8 @@ This repository provides a curated list of **datasets** and **literature** for m
 | ESS | ESS: Learning Event-based Semantic Segmentation from Still Images | CVPR | 2021 | [Link](https://github.com/lyuchenyang/ESS) |
 | DDD17 | Driving Dataset for Event Cameras (DDD17) | arXiv | 2017 | [Link](https://github.com/uzh-rpg/rpg_davis_data) |
 | DSEC | SAM-Event-Adapter: Adapting Segment Anything Model for Event-RGB Semantic Segmentation | ICRA | 2024 | [Link](https://ieeexplore.ieee.org/document/10611127/) |
+| DSEC | SAM-Event-Adapter: Adapting Segment Anything Model for Event-RGB Semantic Segmentation | ICRA | 2024 | [Link](https://ieeexplore.ieee.org/document/10611127/) |
+| DSEC&DDD17 | Rethinking RGB-Event Semantic Segmentation with a Novel Bidirectional Motion-enhanced Event Representation | arXiv | 2025 | [Link](http://arxiv.org/abs/2505.01548) |
 
 ---
 
@@ -81,6 +133,9 @@ This repository provides a curated list of **datasets** and **literature** for m
 |---------|-------------|-------|------|------|
 | ArbitraryModalSeg | Delivering Arbitrary-Modal Semantic Segmentation | CVPR | 2023 | [Link](https://arxiv.org/pdf/2303.01480) |
 | Multimodal Material Segmentation | Segmenting Materials from Local Appearance and Global Context | CVPR | 2022 | [Link](https://openaccess.thecvf.com/content/CVPR2022/papers/Liang_Multimodal_Material_Segmentation_CVPR_2022_paper.pdf) |
+| SYN-UDTIRI&KITTI Road&Cityscapes&KITTI Semantics&MFNet&FMB&ZJU | RoadFormer+: Delivering RGB-X Scene Parsing through Scale-Aware Information Decoupling and Advanced Heterogeneous Feature Fusion | TIV | 2024 | [Link](https://ieeexplore.ieee.org/document/10643711/) |
+| MFNet&PST900&NYU Depth V2&SUN-RGBD V1 | On Exploring Shape and Semantic Enhancements for RGB-X Semantic Segmentation | TIV | 2024 | [Link](https://ieeexplore.ieee.org/document/10185113/) |
+| NYU Depth V2&SUN-RGBD&PST900&FMB&DDD17 | CPAL: Cross-prompting Adapter with LoRAs for RGB+X Semantic Segmentation | TCSVT | 2021 | [Link](https://ieeexplore.ieee.org/document/10857375/) |
 
 ---
 
